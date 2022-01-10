@@ -1,6 +1,6 @@
 function TandT() {
     var self = this;
-    this.json_url = '../json/products.json';
+    this.json_url = 'https://minhkhoi-laichi.github.io/tandt/json/products.json';
 
     this.loadJSON = function() {
         $.getJSON(self.json_url, {dataType : 'json'}, function(data){
